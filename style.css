@@ -1853,8 +1853,8 @@ color: #000000;
       top:5%;
     }
     .big_logo{
-      margin-left: 28%;
-      height: 25%;
+      margin-left: 14%;
+      height: 37%!important;
       z-index: -1;
     }
     .green_img{
@@ -1865,9 +1865,9 @@ color: #000000;
     }
     .description{
       margin-top: -2%;
-      font-size: 20px;
-      margin-left: 28%;
-      width: 46%;
+      font-size: 28px;
+      margin-left: 19%;
+      width: 65%;
       text-align: center;
     }
     .about_description{
@@ -2308,14 +2308,14 @@ color: #000000;
       margin-left: -99px;
     }
     .food{
-      /* left: 50px; */
-      height: 20%;
-      width: 50%;
-      margin-left: 15%;
+      margin-top: -6%;
+      height: 22%;
+      width: 60%;
+      margin-left: 9%;
     }
     .btn1{
-      width: 22%;
-      margin-left: -19.0%;
+      width: 29%;
+      margin-left: -24.70%;
     }
     .image_about{
       display: none;
