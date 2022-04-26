@@ -64,10 +64,20 @@
       position: absolute;
       right: 0px;
       top: 0px;
+      left:728px;
+      width: 20%;
     }
+    
     .nav{
       margin-top: -7%;
+      display: flex;
+      flex-direction: 1;
      
+    }
+    .logo{
+      margin-top:-15%;
+      height: 15%;
+      width: 120%;
     }
     .nav > .nav-btn > label {
       display: inline-block;
@@ -1843,7 +1853,9 @@ color: #000000;
       top:5%;
     }
     .big_logo{
-      margin-left: -7%;
+      margin-left: 28%;
+      height: 25%;
+      z-index: -1;
     }
     .green_img{
       display: none;
@@ -1852,9 +1864,11 @@ color: #000000;
       display: none;
     }
     .description{
+      margin-top: -2%;
       font-size: 20px;
-      /* margin-left: -1%; */
-      width: 50%;
+      margin-left: 28%;
+      width: 46%;
+      text-align: center;
     }
     .about_description{
       width: 250px;
@@ -2294,10 +2308,14 @@ color: #000000;
       margin-left: -99px;
     }
     .food{
-      width: 60%;
+      /* left: 50px; */
+      height: 20%;
+      width: 50%;
+      margin-left: 15%;
     }
     .btn1{
-      width: 20%;
+      width: 22%;
+      margin-left: -19.0%;
     }
     .image_about{
       display: none;
