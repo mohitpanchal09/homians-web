@@ -1294,7 +1294,6 @@ color: #000000;
 .footer{
   position: absolute;
   top: 2950px;
-    display:none;
 }
 
 
@@ -2423,458 +2422,132 @@ color: #000000;
 
   /* smartphones,potrait iphone,potrait 480x320 (android)*/
   @media (max-width:430px){
+    .nav{
+      left: -45%;
+    }
+    .logo{
+      margin-left: 145%;
+      height: 3rem;
+      
+    }
+    .rotate{
+      display: none;
+    }
     .green_img{
       display: none;
     }
     .big_logo{
-      height: 7%;
-      width: 30%;
-    }
-    .rotate{
-      display: none;
-    }
-    .image_about{
-      display: none;
+      margin-left: 12%;
+      height: 15%;
     }
     .description{
-      display: none;
-    }
-    .browse{
-      display: none;
-    }
-    .work{
-      display: none;
-    }
-    .fruit-img{
-      display: none;
-    }
-    .card_parent{
-      display: none;
-    }
-    .card_parent2{
-      display: none;
+      font-size: 12px;
+      width: 40%;
+      text-align: center;
     }
     .btn1{
-      display: none;
-    }
-    .service{
-      display: none;
-    }
-    .dash{
-      display: none;
-    }
-    .chef{
-      display: none;
-    }
-    .chef_count{
-      display: none;
-    }
-    .customer_count{
-      display: none;
-    }
-    .subscribed__{
-      display: none;
-    }
-    .rectangle10{
-      display: none;
-    }
-    .rectangle11{
-      display: none;
-    }
-    .rectangle12{
-      display: none;
-    }
-    .rectangle15{
-      display: none;
+      margin-left: -24%;
     }
     .food{
-      display: none;
+      margin-top: 2%;
+      margin-left: -2%;
+     
     }
-    .rectangle16{
-      display: none;
-    }
-    .rectangle17{
-      display: none;
-    }
-    .review__box1{
-      display: none;
-    }
-    .review__box2{
-      display: none;
-    }
-    .nav{
-      display: none;
-    }
-    .testimonials{
-      display: none;
-    }
-    .reviews
-    {
-      display: none;
-  }
-  .half__img1{
-    display: none;
-  }
-  .half__img2{
-    display: none;
-}
-.special__diet__boxes{
-  display: none;
-}
-.mohit__skipping{
-  display: none;
-}
-.heading_kit{
-  display: none;
-}
-.bg_green{
-  display: none;
-}
-.inside_green{
-  display: none;
-}
-.button_of_green_box1{
-  display: none;
-}
-.button_of_green_box2{
-  display: none;
-}
-.button_of_green_box3{
-  display: none;
-}
-  }
-
-
-
-  @media  (max-width:1200px){
-    /* ................. */
-    .customer{
-      display: none;
-    }
-    .big_logo{
-      height: 25%;
-      margin-left: 23%;
-    }
-      .green_img{
-        width: 35%;
-        left: 64.8%;
-        height: 90%;
-      }
-    .description{
-      font-size: 18px;
-      width:80%;
-    }
-    .rotate{
-      width: 174%;
-      height: 40%;
-      
-      margin-left: -110%;
-      margin-top: 10%;
+    .about_us{
+      margin-top: -140%;
       
     }
-    .btn1{
-      margin-left: -16%;
-    }
-
-
-/* .................. */
-.about_us{
-  font-size: 55px;
-  
-}
     .heading_about{
-      margin-top: -60%;
-    }
-    .dash{
-      margin-top: -3.2%;
+      font-size: 30px;
+      width: 130%;
+      
     }
     .about_description{
-      margin-top: -5%;
-      font-size: 20px;
-      color: gray;
+      font-size: 16px;
+      width: 300%;
     }
     .image_about{
-      margin-top: -115%;
-      
-    }
-
-    
-
-
-
-
-/* ...................... */
-
-
-
-    .vertical__dash{
-      top: 181%;
       height: 15%;
+      margin-left: 12%;
+    }
+    .dash{
+      margin-top: -64%;
+      left: 40%;
+      height: 1%;
+      width: 11%;
+    }
+    .vertical__dash{
+      top: 125%;
+      height: 7%;
+      width: 1.5%;
+      left: 10%;
     }
     .chef_count{
-      top:155% ;
-      left: 5%;
-      /* font-size: 65px; */
-    }
-    .chef{
-      top: 181%;
-      left: 20%;
-      font-size: 22px;
+      top: 120%;
+      font-size: 250%;
+      left: -13%;
     }
     .vertical__dash2{
-      top: 180%;
-      left: 44%;
-      height: 15%;
+      top: 125%;
+      height: 7%;
+      width: 1.5%;
+      left: 57%;
     }
     .customer_count{
-      top:154%;
-      left: 40%;
+      top: 120%;
+      font-size: 250%;
+      left: 25.5%;
+    }
+    .chef{
+      top: 127%;
+      font-size: 60%;
+      left: 27%;
     }
     .customer{
-      top: 166%;
-    font-size: 22px;
-    left: 67%;
-    top: 178%;
+      top: 125%;
+      font-size: 60%;
+      left: 77%;
     }
-
-
-
-
-
-
-
-    /* ............. */
-    .service{
-      font-size: 55px;
-      margin-top: -12%;
-    }
-    .card1{
-      align-content: center;
-      justify-content: center;
-      height: 20%;
-      width: 28%;
-    }
-    .card2{
-      height: 20%;
-      width: 28%;
-    }
-    .card3{
-      height: 20%;
-      width: 28%;
-    }
-    .abt__card__heading{
-      margin-bottom: 15%;
-    }
-    .gajar{
-      margin-left: 40%;
-    }
-    .card_parent{
-      margin-left: 0%;
-    }
-    .row2{
-      /* margin-left: -40%; */
-    }
-
-
-
-
-    /* ............... */
-    .why_homians{
-      left: 30%;
-      top: 263%;
-      font-size: 55px;
-    }
-    .card_1{
-      width: 30%;
-    }
-    .card_2{
-      width: 30%;
-    }
-    .card_3{
-      width: 30%;
-    }
-    .card_4{
-      width: 30%;
-    }
-    .abt__heading1{
-      font-size: 12px;
-    }
-    .card_parent2{
-      margin-left:6% ;
-      margin-top: -5%;
-    }
-    .gajar1{
-      margin-left: 30%;
-      height: 30%;
-      margin-top: 10%;
-    }
-
-
-
-
-
-
-
-
-
-    /* ............... */
-    .work{
-      font-size: 55px;
-      margin-left: 67%;
-      margin-top: 2%;
-    }
-    .browse{
-      margin-top: -23%;
-      margin-left: -12%;
-    }
-    .fruit-img{
-      top: 370%;
-    }
-    .rectangle10{
-      top: 380%;
-      height: 45%;
-    }
-    .rectangle11{
-      top: 415%;
-      height: 45%;
-    }
-    .rectangle12{
-      top: 445%;
-      height: 45%;
-    }
-
-
-
-
-
-
-
-    /* .............. */
-    .heading_kit{
-      top: 490%;
-      left: 21%;
-      font-size: 55px;
-    }
-    .rectangle15{
-      height: 40%;
-      width: 25%;
-      top: 520%;
-      margin-left: 6%;
-    }
-    .rectangle16{
-      height: 40%;
-      width: 25%;
-      top: 520%;
-      margin-left: 2%;
-    }
-    .rectangle17{
-      height: 40%;
-      width: 25%;
-      top: 520%;
-      margin-left: -2.3%;
-    }
-    .rect15-img{
-      height: 50%;
-      width: 45%;
-      margin-left: 28%;
-    }
-    .rect-abt{
-      font-size: 25px;
-      left: 2%;
-    }
-    .menu-bt{
-      width: 40%;
-      margin-top: 20%;
-      margin-left: 32%;
-    }
-    .testimonials{
-      top: 560%;
-      left: 36%;
-      font-size: 55px;
-    }
-    .reviews{
-      top: 575%;
-      left: 27%;
-      /* font-size: 55px; */
-    }
-    .review__box1{
-      top: 615%;
-      left: 25%;
-    }
-    .review__box2{
-      top: 605%;
-      left: 23%;
-    }
-    .half__img1{
-      top: 600%;
-      width: 22%;
-    }
-    .half__img2{
-      top: 600%;
-      width: 12%;
-      left: 87.9%;
-    }
-    .review__inside{
-      top: 610%;
-      left: 27%;
-      font-size:120px ;
-    }
-
-
-
-
-
-
-
-
-
-
-
-    /* .............. */
-    .bg_green{
-      top:680%;
-
-    }
-    .inside_green{
-      top: 694%;
-      left: 5%;
-    }
-    .video_play{
-      top: 753%;
-    }
-    .button_of_green_box1{
-      top: 770%;
-      width: 25%;
-    }
-    .button_of_green_box2{
-      top: 770%;
-      width: 25%;
-    }
-    .button_of_green_box3{
-      top: 770%;
-      width: 25%;
-    }
-
-
-
-    /* .............. */
-    .special_diet{
-      top: 790%;
-      font-size: 35px;
-    }
-    .special_diet_content{
-      top: 820%;
-      font-size: 22px;
-      color: gray;
-    }
-    .mohit__skipping{
-      top: 790%;
-      height: 90%;
-      left: 60%;
-    }
-    .special__diet__boxes{
-      top:850%;
-      /* height: 50%!important; */
-    }
+   .row2{
+     margin-top: -195%;
+     margin-left: -17%;
+     
+   }
+   .service{
+     font-size: 30px;
+   }
+   .card1{
+     width: 27%;
+     height: 6rem;
+   }
+   .card2{
+    width: 27%;
+    height: 6rem;
   }
-}
+  .card3{
+    width: 27%;
+    height: 6rem;
+  }
+  .gajar{
+    margin-left: 35%;
+    margin-top: 4%;
+    height: 2rem;
+    width: 2rem;
+  }
+  .abt__card__heading{
+    font-size: 50%;
+    margin-left: -1%;
+  }
+  .abt__heading{
+    font-size: 10%;
+    margin-top: -30%;
+    margin-left: -1%;
+  }
+
+
+
+
+
+  }
+
+  
