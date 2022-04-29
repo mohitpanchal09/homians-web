@@ -1294,6 +1294,7 @@ color: #000000;
 .footer{
   position: absolute;
   top: 2950px;
+    display:none;
 }
 
 
