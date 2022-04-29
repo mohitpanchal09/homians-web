@@ -2418,8 +2418,7 @@ color: #000000;
 
 
 
-
-
+  
   /* smartphones,potrait iphone,potrait 480x320 (android)*/
   @media (max-width:430px){
     .nav{
@@ -2549,5 +2548,72 @@ color: #000000;
 
 
   }
-
   
+  @media (max-width:320px){
+    .nav{
+      margin-left: -67%;
+      /* width: 1%; */
+    }
+    .logo{
+      margin-left: 270%;
+    }
+    .big_logo{
+      margin-left: 6%;
+    }
+    .description{
+      margin-left: 2.9%;
+      font-size: 8px;
+      width: 30%;
+    }
+    .food{
+      margin-left: 0%;
+      height: 15rem;
+    }
+    .btn1{
+      margin-left: -20%;
+      height: 18%;
+      width: 12%;
+    }
+    .about_us{
+      margin-top: -190%;
+      margin-left: -10%;
+    }
+    .dash{
+      margin-top: -120%;
+      margin-left: 4%;
+    }
+    .image_about{
+      height: 10%;
+      margin-left: 8%;
+      margin-top: 4%;
+    }
+    
+    .vertical__dash{
+      margin-top: -30%;
+      margin-left: -7%;
+    }
+    .chef_count{
+      margin-top: -25%;
+      margin-left: -17%;
+    }
+    .chef{
+      margin-top: -33%;
+      margin-left: -3%;
+    }
+    .vertical__dash2{
+      margin-top: -30%;
+      margin-left: -6%;
+    }
+    .customer_count{
+      margin-top: -25%;
+      margin-left: -16%;
+    }
+    .customer{
+      margin-top: -30%;
+    }
+    .service{
+      margin-top: -210%;
+      font-size:x-large;
+      margin-left: 11%;
+    }
+  }
