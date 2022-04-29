@@ -2552,68 +2552,87 @@ color: #000000;
   @media (max-width:320px){
     .nav{
       margin-left: -67%;
-      /* width: 1%; */
+      /* overflow:hidden; */
     }
     .logo{
       margin-left: 270%;
+      overflow:hidden;
     }
     .big_logo{
       margin-left: 6%;
+      overflow:hidden;
     }
     .description{
       margin-left: 2.9%;
       font-size: 8px;
       width: 30%;
+      overflow:hidden;
     }
     .food{
       margin-left: 0%;
       height: 15rem;
+      overflow:hidden;
     }
     .btn1{
       margin-left: -20%;
       height: 18%;
       width: 12%;
+      overflow:hidden;
+    }
+    .about_description{
+      overflow:hidden;
     }
     .about_us{
       margin-top: -190%;
       margin-left: -10%;
+      overflow:hidden;
     }
     .dash{
       margin-top: -120%;
       margin-left: 4%;
+      overflow:hidden;
     }
     .image_about{
       height: 10%;
       margin-left: 8%;
       margin-top: 4%;
+      overflow:hidden;
     }
     
     .vertical__dash{
       margin-top: -30%;
       margin-left: -7%;
+      overflow:hidden;
     }
     .chef_count{
       margin-top: -25%;
       margin-left: -17%;
+      overflow:hidden;
     }
     .chef{
       margin-top: -33%;
       margin-left: -3%;
+      overflow:hidden;
     }
     .vertical__dash2{
       margin-top: -30%;
       margin-left: -6%;
+      overflow:hidden;
     }
     .customer_count{
       margin-top: -25%;
       margin-left: -16%;
+      overflow:hidden;
     }
     .customer{
       margin-top: -30%;
+      overflow:hidden;
     }
     .service{
       margin-top: -210%;
       font-size:x-large;
       margin-left: 11%;
+      overflow:hidden;
     }
+    
   }
